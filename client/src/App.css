@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.FilesDragAndDrop__area {
+  width: 200px;
+  height: 100px;
+  margin: 20px auto; /* Center horizontally with top margin */
+  padding: 50px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  font-size: 24px;
+  color: #555555;
+  border: 2px #c3c3c3 dashed;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(114, 3, 193, 0.2); 
+  color: #000000;
+  font-size: medium;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+  padding: 20px;
+  /* background: rgba(255, 255, 255, 0.8); Slight transparency */
+      /* border-radius: 10px; */
+      padding: 20px;
+      /* box-shadow: 0 0 10px rgba(132, 67, 177, 0.2);  */
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 300px;
+  box-shadow:  5px 2p 2px rgba(114, 3, 193, 0.2); 
+  margin-bottom: 15px;
+  width: 40%; /* Wider input fields */
+     border-radius: 10px;
+  box-sizing: border-box;
+    background: transparent;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+.btn {
+  padding: 10px;
+  background: linear-gradient(to right, #37255b, #4a1f54);
+  color: white;
+  border:#555555;
+  height: 20%;
+  width: 30%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #746c6c, #000000);
+  height: 100vh;
+  overflow: hidden;
+  transition: background 0.5s ease-in-out;
+}
+
+.FilesDragAndDrop__area .area__icon {
+  font-size: 64px;
+  margin-top: 20px;
+}

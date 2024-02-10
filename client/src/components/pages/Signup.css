@@ -1,0 +1,82 @@
+/* SignInForm.css */
+
+/* General Styles */
+.sign-in-container {
+  background: url('../../../public/images/3607424.jpg') repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  background-repeat: repeat;
+  justify-content: center;
+  height: 680px; 
+  padding: 20px; /* Add padding as needed */
+  /* padding-bottom: 20px; */
+}
+
+.scrollable-content {
+  /* max-height: 400px; Set maximum height for scrollable content */
+  /* overflow-y: auto; Enable vertical scrolling when content overflows */
+  width: 100%; /* Ensure full width */
+}
+
+  .login-in-container {
+    background: url('../../../public/images/3607424.jpg') repeat center center fixed;
+    background-size:cover;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 140vh;
+  }
+  
+  .form {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 20 30 10px rgba(220, 4, 4, 0.1);
+  }
+  .lform {
+    top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 20 30 10px rgba(220, 4, 4, 0.1);
+  }
+  
+  #standard-basic {
+    width: 100%;
+    padding: 8px;
+    text-decoration: dashed;
+    border-radius: 4px;
+    color: rgb(233, 227, 227);
+  }
+  
+  .sign-in-form {
+    color: #ccc;
+  }
+  
+  .sign-in-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sign-in-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Media Queries for Smaller Screens */
+  @media only screen and (max-width: 600px) {
+    #standard-basic {
+      width: 100%;
+    }
+  
+    .form {
+      padding: 10px;
+    }
+  }
+  
