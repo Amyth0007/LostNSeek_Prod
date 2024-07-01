@@ -34,26 +34,30 @@ input {
   padding: 10px;
   margin-bottom: 15px;
   width: 300px;
-  box-shadow:  5px 2p 2px rgba(114, 3, 193, 0.2); 
+  box-shadow:  5px 2p 2px rgba(211, 180, 233, 0.2); 
   margin-bottom: 15px;
   width: 40%; /* Wider input fields */
      border-radius: 10px;
   box-sizing: border-box;
-    background: transparent;
-  }
+  background: transparent;
+  border: 1px solid #8f8a8a;
+}
   label {
     display: block;
     margin-bottom: 5px;
+    color: aliceblue;
   }
 .btn {
   padding: 10px;
-  background: linear-gradient(to right, #37255b, #4a1f54);
+  background: linear-gradient(to right, #514f55, #454545);
   color: white;
   border:#555555;
   height: 20%;
-  width: 30%;
+  width: 10%;
   border-radius: 20px;
   cursor: pointer;
+  transition: background 0.1s ease-in-out;
+  bottom: 20px;
 }
 body {
   margin: 0;
